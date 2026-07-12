@@ -50,6 +50,8 @@ apis:
       - type: SacraProfile
         url: https://sacra.com/c/friend/
 common:
+  - type: DomainSecurity
+    url: security/friend-com-domain-security.yml
   - type: Website
     url: https://friend.com/
   - type: Wikipedia
