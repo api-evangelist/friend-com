@@ -10,7 +10,19 @@ description: >-
   consumer hardware company with no public developer API, SDK, or partner
   program; only the consumer site, an app, and the Wikipedia / press coverage
   exist as references.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: free
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Free · Requires approval
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/friend-com.png
 tags:
   - AI
   - Wearable
@@ -19,36 +31,9 @@ tags:
   - Consumer Hardware
   - No Public API
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-07-25'
 specificationVersion: '0.19'
-apis:
-  - aid: friend-com:pendant
-    name: Friend Pendant
-    description: >-
-      Wearable AI companion pendant with on-device microphone that listens
-      passively and texts the user via a paired mobile app. The pendant does
-      not speak back. Shipping in North America at $129 (up from the original
-      $99). No public developer API, SDK, or partner program.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://friend.com/
-    baseURL: https://friend.com
-    tags:
-      - Hardware
-      - Wearable
-      - Pendant
-      - Consumer
-      - Companion
-    properties:
-      - type: ProductPage
-        url: https://friend.com/
-      - type: Wikipedia
-        url: https://en.wikipedia.org/wiki/Friend_(product)
-      - type: ShipmentDelayCoverage
-        url: https://techcrunch.com/2025/01/20/friend-delays-shipments-of-its-ai-companion-pendant/
-      - type: FortuneReview
-        url: https://fortune.com/2025/10/03/friend-ai-necklace-review-avi-schiffmann/
-      - type: SacraProfile
-        url: https://sacra.com/c/friend/
+apis: []
 common:
   - type: DomainSecurity
     url: security/friend-com-domain-security.yml
