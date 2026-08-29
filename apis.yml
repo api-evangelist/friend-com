@@ -10,6 +10,17 @@ description: >-
   consumer hardware company with no public developer API, SDK, or partner
   program; only the consumer site, an app, and the Wikipedia / press coverage
   exist as references.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: approval
